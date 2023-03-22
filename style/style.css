@@ -1,0 +1,96 @@
+p {
+  font-family: Verdana;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px ;
+  
+  column-gap: 20px;
+}
+
+.profile {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.logos-img {
+  height: 15px;
+  width: 15px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.profile-line {
+  display: grid;
+  grid-template-columns: 45px 1fr;
+  margin-top: 10px;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.mutuals {
+   
+  display: inline-block;
+  color: gray;
+}
+
+.add {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.high-bar-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px 200px 200px 200px 200px;
+    margin-top: 30px
+}
+
+.high-bar-logos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.get-started-btn {
+      background-color: rgb(150, 220, 20);
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 4px;
+      font-size: 16px;
+      margin-left: 8px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+}
